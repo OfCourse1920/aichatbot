@@ -2,7 +2,7 @@ const chatForm = document.getElementById("chat-form");
 const chatWindow = document.getElementById("chat-window");
 const messages = document.getElementById("messages");
 
-const SERVER_URL = "ttps://aichatbot-backend.vercel.app/get-response";
+const SERVER_URL = "https://aichatbot-backend.vercel.app/get-response";
 
 chatForm.addEventListener("submit", async (e) => {
   e.preventDefault();
