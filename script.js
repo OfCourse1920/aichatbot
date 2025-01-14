@@ -1,5 +1,5 @@
 // The backend URL (replace with your deployed backend URL)
-const SERVER_URL = "https://aichatbot-backend.vercel.app/get-response";
+const SERVER_URL = "https://aichatbot-backend.vercel.app/api/get-response"; // Updated to match your deployed Vercel URL
 
 async function sendMessage() {
   const userMessage = document.getElementById("userInput").value;
